@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Rummy App Link</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-red-600 text-white p-4 text-center text-2xl font-bold">
+    All Rummy App Link वेबसाइट
+  </header>
+
+  <main class="p-4 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <!-- सभी ऐप कार्ड्स नीचे लिस्ट किए गए हैं -->
+    <script>
+      const apps = [
+        ["3F Game", "₹500 बोनस", "https://cutt.ly/6eNpFEkd"],
+        ["Rummy Apple", "₹51 बोनस", "https://bit.ly/Aniketrajapple01"],
+        ["Rummy Pride", "₹51 बोनस", "https://bit.ly/4g4vaQL"],
+        ["Teen Patti Star", "₹51 बोनस", "https://cutt.ly/zeBbVAYv"],
+        ["Rummy Tour", "₹51 बोनस", "https://cutt.ly/ceBbbs6e"],
+        ["Teen Patti Live", "₹51 बोनस", "https://cutt.ly/XeBbNzZp"],
+        ["3F Game", "₹500 बोनस", "https://api.gm3f.com/FGI3"],
+        ["Rummy Loot", "₹51 बोनस", "https://cutt.ly/3eBbmJMe"],
+        ["Rummy Prince", "₹51 बोनस", "https://cutt.ly/LeBbvI22"],
+        ["Rummy Good", "₹100 बोनस", "https://cutt.ly/oeBbmfSO"],
+        ["Rummy Ares", "₹51 बोनस", "https://cutt.ly/ieBblhGo"],
+        ["Teen Patti Yes", "₹51 बोनस", "https://cutt.ly/YeBbMvkz"],
+        ["Rummy Meet", "₹51 बोनस", "https://cutt.ly/0eBbQtIQ"],
+        ["Holy Rummy", "₹51 बोनस", "https://cutt.ly/keBbkqDG"],
+        ["Rummy Most", "₹51 बोनस", "https://cutt.ly/5eBbQE88"],
+        ["Rummy Mars", "₹51 बोनस", "https://cutt.ly/beBbcjPf"],
+        ["Rummy Grand", "₹51 बोनस", "https://cutt.ly/neBbxHm7"],
+        ["Rummy Modarn", "₹51 बोनस", "https://cutt.ly/FeBbbXIS"],
+        ["Rummy Ola", "₹51 बोनस", "https://cutt.ly/zeBbc21R"],
+        ["Rummy Block", "₹51 बोनस", "https://cutt.ly/ueBbl6gd"],
+        ["Rummy Alliance", "₹51 बोनस", "https://cutt.ly/OeBbnq1x"],
+        ["Rummy Noble", "₹51 बोनस", "https://cutt.ly/9eBbcONt"],
+        ["Rummy Gold", "₹51 बोनस", "https://cutt.ly/weBbxdoH"],
+        ["Rummy Glee", "₹51 बोनस", "https://cutt.ly/reBbz8ZJ"],
+        ["Rummy Best", "₹101 बोनस", "https://cutt.ly/BeBblUMJ"],
+        ["Rummy Royally", "₹51 बोनस", "https://cutt.ly/qeBbleqW"],
+        ["Rummy Regal", "₹51 बोनस", "https://cutt.ly/SeBbv5uD"],
+        ["Rummy Gemas", "₹51 बोनस", "https://cutt.ly/BeBbzTuw"],
+        ["Rummy Leader", "₹51 बोनस", "https://cutt.ly/veBbx4WF"],
+        ["Teen Patti Royal", "₹51 बोनस", "https://cutt.ly/geBbVufK"],
+        ["Rummy East", "₹51 बोनस", "https://cutt.ly/XeBbnHr8"],
+        ["Rummy Yes", "₹51 बोनस", "https://cutt.ly/beBbEkU8"],
+        ["Svip 3Patti", "₹80 बोनस", "https://cutt.ly/AeBbZdKs"],
+        ["Teen Patti Go", "₹51 बोनस", "https://cutt.ly/ieBbXuZC"],
+        ["Rummy Star", "₹51 बोनस", "https://cutt.ly/FeBbWQVK"],
+        ["Rainbow Rummy", "₹51 बोनस", "https://cutt.ly/AeBbkKIX"],
+        ["Teen Patti Joy", "₹51 बोनस", "https://cutt.ly/OeBbB5As"],
+        ["Rummy Nabob", "₹51 बोनस", "https://cutt.ly/OeBbWdGw"],
+        ["Joy Rummy", "₹51 बोनस", "https://cutt.ly/geBbkcou"],
+        ["Rummy Wealth", "₹51 बोनस", "https://cutt.ly/eeBbbToi"],
+        ["Teen Patti Clube", "₹51 बोनस", "https://cutt.ly/SeBbZFOm"],
+        ["VIP 3 Patti", "₹51 बोनस", "https://cutt.ly/qeBbN4A6"],
+        ["Rummy Vip", "₹51 बोनस", "https://cutt.ly/aeBbW3Ab"],
+        ["Teen Patti Winner", "₹51 बोनस", "https://cutt.ly/PeBbV3pf"],
+        ["666e Rummy", "₹51 बोनस", "https://cutt.ly/5eBbjOEb"],
+        ["Teen Patti Rich", "₹51 बोनस", "https://cutt.ly/seBbCE28"],
+        ["Teen Patti Fun", "₹51 बोनस", "https://cutt.ly/beBbBzto"],
+        ["TeenPatti Palace", "₹51 बोनस", "https://cutt.ly/peBbXAWN"],
+        ["Teen Patti Blue", "₹51 बोनस", "https://cutt.ly/NeBbNSAz"]
+      ];
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const main = document.querySelector("main");
+        apps.forEach(([name, bonus, link]) => {
+          const div = document.createElement("div");
+          div.className = "bg-white rounded-xl shadow-md p-4";
+          div.innerHTML = `<h2 class="text-xl font-semibold">${name} - ${bonus}</h2><a href="${link}" target="_blank" class="mt-2 inline-block px-4 py-2 bg-green-500 text-white rounded">डाउनलोड करें</a>`;
+          main.appendChild(div);
+        });
+      });
+    </script>
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+    © 2025 All Rummy App Link - सभी अधिकार सुरक्षित
+  </footer>
+</body>
+</html>
